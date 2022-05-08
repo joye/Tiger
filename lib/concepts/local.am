@@ -1,0 +1,4 @@
+dist_noinst_HEADERS +=	\
+  %D%/concepts.hpp	\
+  %D%/swap.hpp		\
+  %D%/type_traits.hpp

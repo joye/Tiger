@@ -1,0 +1,46 @@
+dist_noinst_HEADERS +=		\
+  %D%/action.hpp		\
+  %D%/algorithm.hpp		\
+  %D%/all.hpp			\
+  %D%/at.hpp			\
+  %D%/back.hpp			\
+  %D%/begin_end.hpp		\
+  %D%/core.hpp			\
+  %D%/data.hpp			\
+  %D%/distance.hpp		\
+  %D%/empty.hpp			\
+  %D%/front.hpp			\
+  %D%/functional.hpp		\
+  %D%/getlines.hpp		\
+  %D%/index.hpp			\
+  %D%/istream_range.hpp		\
+  %D%/iterator.hpp		\
+  %D%/iterator_range.hpp	\
+  %D%/numeric.hpp		\
+  %D%/range_access.hpp		\
+  %D%/range_concepts.hpp	\
+  %D%/range_for.hpp		\
+  %D%/range_fwd.hpp		\
+  %D%/range.hpp			\
+  %D%/range_traits.hpp		\
+  %D%/size.hpp			\
+  %D%/span.hpp			\
+  %D%/to_container.hpp		\
+  %D%/utility.hpp		\
+  %D%/version.hpp		\
+  %D%/view_adaptor.hpp		\
+  %D%/view_facade.hpp		\
+  %D%/view.hpp			\
+  %D%/view_interface.hpp
+
+
+include %D%/action/local.am
+include %D%/algorithm/local.am
+include %D%/detail/local.am
+include %D%/experimental/local.am
+include %D%/functional/local.am
+include %D%/iterator/local.am
+include %D%/numeric/local.am
+include %D%/range/local.am
+include %D%/utility/local.am
+include %D%/view/local.am

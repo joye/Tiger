@@ -1,0 +1,9 @@
+dist_noinst_HEADERS +=		\
+  %D%/adl_get.hpp		\
+  %D%/config.hpp		\
+  %D%/disable_warnings.hpp	\
+  %D%/range_access.hpp		\
+  %D%/reenable_warnings.hpp	\
+  %D%/satisfy_boost_range.hpp	\
+  %D%/variant.hpp		\
+  %D%/with_braced_init_args.hpp

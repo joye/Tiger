@@ -1,0 +1,15 @@
+dist_noinst_HEADERS +=		\
+  %D%/access.hpp		\
+  %D%/basic_iterator.hpp	\
+  %D%/common_iterator.hpp	\
+  %D%/concepts.hpp		\
+  %D%/counted_iterator.hpp	\
+  %D%/default_sentinel.hpp	\
+  %D%/diffmax_t.hpp		\
+  %D%/insert_iterators.hpp	\
+  %D%/move_iterators.hpp	\
+  %D%/operations.hpp		\
+  %D%/reverse_iterator.hpp	\
+  %D%/stream_iterators.hpp	\
+  %D%/traits.hpp		\
+  %D%/unreachable_sentinel.hpp

@@ -1,0 +1,6 @@
+let
+  var me := 0
+  function id(me : int) : int = me
+in
+  print_int(me)
+end

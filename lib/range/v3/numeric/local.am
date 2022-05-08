@@ -1,0 +1,6 @@
+dist_noinst_HEADERS +=		\
+  %D%/accumulate.hpp		\
+  %D%/adjacent_difference.hpp	\
+  %D%/inner_product.hpp		\
+  %D%/iota.hpp			\
+  %D%/partial_sum.hpp

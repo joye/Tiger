@@ -1,0 +1,8 @@
+dist_noinst_HEADERS +=	\
+  %D%/access.hpp	\
+  %D%/concepts.hpp	\
+  %D%/conversion.hpp	\
+  %D%/dangling.hpp	\
+  %D%/operations.hpp	\
+  %D%/primitives.hpp	\
+  %D%/traits.hpp

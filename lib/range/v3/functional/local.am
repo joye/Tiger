@@ -1,0 +1,15 @@
+dist_noinst_HEADERS +=		\
+  %D%/arithmetic.hpp		\
+  %D%/bind_back.hpp		\
+  %D%/bind.hpp			\
+  %D%/comparisons.hpp		\
+  %D%/compose.hpp		\
+  %D%/concepts.hpp		\
+  %D%/identity.hpp		\
+  %D%/indirect.hpp		\
+  %D%/invoke.hpp		\
+  %D%/not_fn.hpp		\
+  %D%/on.hpp			\
+  %D%/overload.hpp		\
+  %D%/pipeable.hpp		\
+  %D%/reference_wrapper.hpp

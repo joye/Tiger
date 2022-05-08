@@ -1,0 +1,3 @@
+dist_noinst_HEADERS +=		\
+  %D%/utility/generator.hpp	\
+  %D%/view/shared.hpp

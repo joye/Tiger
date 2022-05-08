@@ -1,0 +1,27 @@
+/* == Abstract Syntax Tree. == */
+
+primitive print /* 0x5608599f41a0 */(string /* 0x5608599f4090 */ : string /* 0 */)
+primitive print_err /* 0x5608599f4010 */(string /* 0x5608599f8290 */ : string /* 0 */)
+primitive print_int /* 0x5608599f45e0 */(int /* 0x560859a02a10 */ : int /* 0 */)
+primitive flush /* 0x5608599f68c0 */()
+primitive getchar /* 0x5608599f6650 */() : string /* 0 */
+primitive ord /* 0x5608599f57e0 */(string /* 0x560859a02d60 */ : string /* 0 */) : int /* 0 */
+primitive chr /* 0x560859a031f0 */(code /* 0x560859a02f80 */ : int /* 0 */) : string /* 0 */
+primitive size /* 0x560859a03490 */(string /* 0x560859a03270 */ : string /* 0 */) : int /* 0 */
+primitive streq /* 0x560859a038b0 */(s1 /* 0x560859a03510 */ : string /* 0 */, s2 /* 0x560859a036d0 */ : string /* 0 */) : int /* 0 */
+primitive strcmp /* 0x560859a03c30 */(s1 /* 0x560859a03930 */ : string /* 0 */, s2 /* 0x560859a03aa0 */ : string /* 0 */) : int /* 0 */
+primitive substring /* 0x560859a04130 */(string /* 0x560859a03cb0 */ : string /* 0 */, start /* 0x560859a03e20 */ : int /* 0 */, length /* 0x560859a03f90 */ : int /* 0 */) : string /* 0 */
+primitive concat /* 0x560859a04530 */(fst /* 0x560859a041b0 */ : string /* 0 */, snd /* 0x560859a04370 */ : string /* 0 */) : string /* 0 */
+primitive not /* 0x560859a04820 */(boolean /* 0x560859a045b0 */ : int /* 0 */) : int /* 0 */
+primitive exit /* 0x560859a049b0 */(status /* 0x560859a048a0 */ : int /* 0 */)
+function _main /* 0x5608599fc790 */() =
+  (
+    let
+      var me /* 0x5608599f5160 */ := 0
+      function id /* 0x5608599f42c0 */(me /* 0x5608599f4b90 */ : int /* 0 */) : int /* 0 */ =
+        me /* 0x5608599f4b90 */
+    in
+      print_int /* 0x5608599f45e0 */(me /* 0x5608599f5160 */)
+    end;
+    ()
+  )

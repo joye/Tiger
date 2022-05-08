@@ -1,0 +1,21 @@
+/* == Abstract Syntax Tree. == */
+
+function _main /* 0x564418878ee0 */() =
+  (
+    let
+      type C /* 0x56441887b6a0 */ =
+      class extends Object
+      {
+      }
+      var c /* 0x56441887a3b0 */ := new C /* 0x56441887b6a0 */
+    in
+      (
+        0x56441887a090missing_method
+          (
+            
+          );
+        c /* 0x56441887a3b0 */.missing_attribute
+      )
+    end;
+    ()
+  )

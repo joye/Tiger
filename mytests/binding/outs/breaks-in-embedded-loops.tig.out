@@ -1,0 +1,23 @@
+/* == Abstract Syntax Tree. == */
+
+function _main /* 0x563de672e1a0 */() =
+  (
+    let
+      var x /* 0x563de6730e00 */ := 0
+    in
+      (while /* 0x563de672e220 */ 1 do
+        (
+          (for /* 0x563de672f470 */ i /* 0x563de67311b0 */ := 0 to 10 do
+            (
+              (x /* 0x563de6730e00 */ := (x /* 0x563de6730e00 */ + i /* 0x563de67311b0 */));
+              (if (x /* 0x563de6730e00 */ >= 42)
+                then break /* 0x563de672f470 */
+                else ())
+            ));
+          (if (x /* 0x563de6730e00 */ >= 51)
+            then break /* 0x563de672e220 */
+            else ())
+        ))
+    end;
+    ()
+  )

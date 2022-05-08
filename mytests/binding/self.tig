@@ -1,0 +1,16 @@
+let
+  class self
+  {
+    var self : self := nil
+    method self() : self = self.self
+  }
+
+  var self : self := new self
+
+  class foo
+  {
+    var self := self
+    method self(self : self) : self = self.self
+  }
+in
+end

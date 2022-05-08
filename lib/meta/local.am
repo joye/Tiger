@@ -1,0 +1,3 @@
+dist_noinst_HEADERS +=	\
+  %D%/meta_fwd.hpp	\
+  %D%/meta.hpp

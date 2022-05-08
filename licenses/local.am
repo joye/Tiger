@@ -1,0 +1,4 @@
+## ---------- ##
+## Licenses.  ##
+## ---------- ##
+EXTRA_DIST += %D%/range-v3.license

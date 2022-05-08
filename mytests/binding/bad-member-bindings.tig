@@ -1,0 +1,7 @@
+let
+  type C = class {}
+  var c := new C
+in
+  c.missing_method();
+  c.missing_attribute
+end

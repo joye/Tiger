@@ -1,0 +1,26 @@
+dist_noinst_HEADERS +=		\
+  %D%/action.hpp		\
+  %D%/adjacent_remove_if.hpp	\
+  %D%/concepts.hpp		\
+  %D%/drop.hpp			\
+  %D%/drop_while.hpp		\
+  %D%/erase.hpp			\
+  %D%/insert.hpp		\
+  %D%/join.hpp			\
+  %D%/push_back.hpp		\
+  %D%/push_front.hpp		\
+  %D%/remove.hpp		\
+  %D%/remove_if.hpp		\
+  %D%/reverse.hpp		\
+  %D%/shuffle.hpp		\
+  %D%/slice.hpp			\
+  %D%/sort.hpp			\
+  %D%/split.hpp			\
+  %D%/split_when.hpp		\
+  %D%/stable_sort.hpp		\
+  %D%/stride.hpp		\
+  %D%/take.hpp			\
+  %D%/take_while.hpp		\
+  %D%/transform.hpp		\
+  %D%/unique.hpp		\
+  %D%/unstable_remove_if.hpp

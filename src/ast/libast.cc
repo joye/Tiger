@@ -1,0 +1,44 @@
+/**
+ ** \file ast/libast.cc
+ ** \brief Public ast interface implementation.
+ */
+
+#include <fstream>
+
+#include <ast/dumper-dot.hh>
+#include <ast/libast.hh>
+#include <ast/pretty-printer.hh>
+
+// Define exported ast functions.
+namespace ast
+{
+  // Making the following variables const is more than merely
+  // stylistic.  If they were not, Swig will create set/get for them,
+  // and there is no set (operator=), since it has a const member.
+
+  /// xalloc slot to enable escapes display in Ast display.
+  const misc::xalloc<bool> escapes_display;
+  /// xalloc slot to enable bindings display in Ast display.
+  const misc::xalloc<bool> bindings_display;
+
+  // Print the TREE on OSTR.
+  std::ostream& operator<<(std::ostream& ostr, const Ast& tree)
+  {
+    PrettyPrinter print(ostr);
+    print(tree);
+    return ostr;
+  }
+
+  /// Dump \a a on \a ostr.
+  std::ostream& dump_dot(const Ast& tree, std::ostream& ostr)
+  {
+    DumperDot dump_dot(ostr);
+    ostr << misc::resetindent << "digraph structs {" << misc::incendl;
+    ostr << "splines=line;" << misc::iendl;
+    ostr << "node [shape=plaintext]" << misc::iendl;
+    dump_dot(tree);
+    ostr << misc::decendl << "}" << misc::iendl;
+    return ostr;
+  }
+
+} // namespace ast

@@ -1,0 +1,11 @@
+let
+  type one = { hd : int, tail : two }
+  type two = { hd : int, tail : one }
+  function one(hd : int, tail : two) : one
+     = one { hd = hd, tail = tail }
+  function two(hd : int, tail : one) : two
+     = two { hd = hd, tail = tail }
+  var one := one(11, two(22, nil))
+in
+  print_int(one.tail.hd); print("\n")
+end

@@ -1,0 +1,42 @@
+lib/misc/scoped-map.hh:            // DONE: Some code was deleted here.
+lib/misc/scoped-map.hh:            // DONE: Some code was deleted here.
+lib/misc/scoped-map.hxx:           // DONE: Some code was deleted here.
+src/ast/escapable.cc:              // DONE: Some code was deleted here.
+src/ast/escapable.hh:              // DONE: Some code was deleted here.
+src/ast/escapable.hxx:             // DONE: Some code was deleted here.
+src/ast/pretty-printer.cc:         // DONE: Some code was deleted here.
+src/bind/binder.cc:                // DONE: Some code was deleted here (Error reporting).
+src/bind/binder.cc:                // DONE: Some code was deleted here.
+src/bind/binder.cc:                // DONE: Some code was deleted here.
+src/bind/binder.cc:                // DONE: Some code was deleted here.
+src/bind/binder.cc:                // DONE: Some code was deleted here.
+src/bind/binder.cc:                // DONE: Some code was deleted here.
+src/bind/binder.cc:                // DONE: Some code was deleted here.
+src/bind/binder.cc:                // DONE: Some code was deleted here.
+src/bind/binder.cc:                // DONE: Some code was deleted here.
+src/bind/binder.hh:                // DONE: Some code was deleted here.
+src/bind/binder.hh:                // DONE: Some code was deleted here.
+src/bind/binder.hh:                // DONE: Some code was deleted here (More members).
+src/bind/binder.hxx:               // DONE: Some code was deleted here (Error reporting).
+src/bind/binder.hxx:               // DONE: Some code was deleted here (Two passes: once on headers, then on bodies).
+src/bind/binder.hxx:               // DONE: Some code was deleted here.
+src/bind/libbind.cc:               // DONE: Some code was deleted here.
+src/bind/libbind.hh:               // DONE: Some code was deleted here.
+src/bind/renamer.cc:               // DONE: Some code was deleted here.
+src/bind/renamer.hh:               // DONE: Some code was deleted here.
+src/bind/renamer.hh:               // DONE: Some code was deleted here.
+src/bind/renamer.hxx:              // DONE: Some code was deleted here.
+src/bind/renamer.hxx:              // DONE: Some code was deleted here.
+src/bind/tasks.cc:                 // DONE: Some code was deleted here.
+src/bind/tasks.hh:                 // DONE: Some code was deleted here.
+src/escapes/escapes-visitor.cc:    // DONE: Some code was deleted here.
+src/escapes/escapes-visitor.hh:    // DONE: Some code was deleted here.
+src/object/binder.cc:              // DONE: Some code was deleted here.
+src/object/binder.cc:              // DONE: Some code was deleted here.
+src/object/binder.cc:              // DONE: Some code was deleted here (Two passes: once on headers, then on bodies).
+src/object/libobject.cc:           // DONE: Some code was deleted here.
+src/object/libobject.cc:           // DONE: Some code was deleted here.
+src/object/libobject.hh:           // DONE: Some code was deleted here.
+src/object/tasks.cc:               // DONE: Some code was deleted here.
+src/object/tasks.hh:               // DONE: Some code was deleted here.
+src/parse/tasks.cc:                // DONE: Some code was deleted here.

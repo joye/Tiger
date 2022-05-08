@@ -1,0 +1,5 @@
+let
+  /* Super class doesn't exist.  */
+  class Z extends Ghost {}
+in
+end

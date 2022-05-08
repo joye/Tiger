@@ -1,0 +1,3 @@
+int-plus-string2.tig:1.1: type mismatch
+  right op type: string
+  but expected type: int

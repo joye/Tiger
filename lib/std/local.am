@@ -1,0 +1,3 @@
+dist_noinst_HEADERS +=			\
+  %D%/detail/associated_types.hpp	\
+  %D%/iterator

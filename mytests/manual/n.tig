@@ -1,0 +1,5 @@
+if ("foo" = "foo")
+then
+   print("TRUE\n")
+else
+   print("FALSE\n")

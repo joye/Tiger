@@ -1,0 +1,8 @@
+/* == Abstract Syntax Tree. == */
+
+function _main() =
+  (
+    (for i := 0 to 100 do
+      print_int(i));
+    ()
+  )

@@ -1,0 +1,18 @@
+/* == Abstract Syntax Tree. == */
+
+function _main() =
+  (
+    let
+      type B =
+      class extends Object
+      {
+        var a := 42
+        method m() : int =
+          self.aa
+      }
+      var b := new B
+    in
+      (b.a := 51)
+    end;
+    ()
+  )

@@ -1,0 +1,8 @@
+dist_noinst_HEADERS +=		\
+  %D%/equal_range_n.hpp		\
+  %D%/lower_bound_n.hpp		\
+  %D%/merge_n.hpp		\
+  %D%/merge_n_with_buffer.hpp	\
+  %D%/partition_point_n.hpp	\
+  %D%/sort_n_with_buffer.hpp	\
+  %D%/upper_bound_n.hpp

@@ -1,0 +1,26 @@
+/* == Abstract Syntax Tree. == */
+
+primitive print /* 0x56030aa63ee0 */(string /* 0x56030aa64e60 */ : string /* 0 */)
+primitive print_err /* 0x56030aa63dc0 */(string /* 0x56030aa71ad0 */ : string /* 0 */)
+primitive print_int /* 0x56030aa63c30 */(int /* 0x56030aa71c10 */ : int /* 0 */)
+primitive flush /* 0x56030aa64200 */()
+primitive getchar /* 0x56030aa65580 */() : string /* 0 */
+primitive ord /* 0x56030aa65330 */(string /* 0x56030aa720d0 */ : string /* 0 */) : int /* 0 */
+primitive chr /* 0x56030aa72460 */(code /* 0x56030aa723d0 */ : int /* 0 */) : string /* 0 */
+primitive size /* 0x56030aa72790 */(string /* 0x56030aa72700 */ : string /* 0 */) : int /* 0 */
+primitive streq /* 0x56030aa72cb0 */(s1 /* 0x56030aa72b90 */ : string /* 0 */, s2 /* 0x56030aa72c20 */ : string /* 0 */) : int /* 0 */
+primitive strcmp /* 0x56030aa73110 */(s1 /* 0x56030aa72ff0 */ : string /* 0 */, s2 /* 0x56030aa73080 */ : string /* 0 */) : int /* 0 */
+primitive substring /* 0x56030aa73720 */(string /* 0x56030aa735b0 */ : string /* 0 */, start /* 0x56030aa73620 */ : int /* 0 */, length /* 0x56030aa736b0 */ : int /* 0 */) : string /* 0 */
+primitive concat /* 0x56030aa73c00 */(fst /* 0x56030aa73ae0 */ : string /* 0 */, snd /* 0x56030aa73b70 */ : string /* 0 */) : string /* 0 */
+primitive not /* 0x56030aa73f60 */(boolean /* 0x56030aa73ed0 */ : int /* 0 */) : int /* 0 */
+primitive exit /* 0x56030aa74270 */(status /* 0x56030aa741e0 */ : int /* 0 */)function _main /* 0x56030aa6b930 */() =
+  (
+    let
+      var me /* 0x56030aa66590 */ := 0
+      function id /* 0x56030aa64060 */(me /* 0x56030aa64430 */ : int /* 0 */) : int /* 0 */ =
+        me /* 0x56030aa64430 */
+    in
+      print_int /* 0x56030aa63c30 */(me /* 0x56030aa66590 */)
+    end;
+    ()
+  )

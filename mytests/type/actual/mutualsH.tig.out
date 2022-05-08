@@ -1,0 +1,3 @@
+../../build/src/tc: unrecognised option '-H'
+tc [OPTIONS...] INPUT-FILE
+Try `tc --help' or `tc --usage' for more information.

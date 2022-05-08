@@ -1,0 +1,16 @@
+/* == Abstract Syntax Tree. == */
+
+function _main /* 0x563638fdf2c0 */() =
+  (
+    let
+      type box /* 0x563638fe2240 */ = { value : int /* 0 */ }
+      type dup /* 0x563638fdf130 */ = {
+        value : int /* 0 */,
+        value : string /* 0 */
+      }
+      var box /* 0x563638fe1290 */ := box /* 0x563638fe2240 */ { value = 51 }
+    in
+      box /* 0x563638fe1290 */.head
+    end;
+    ()
+  )

@@ -1,0 +1,184 @@
+lib/misc/singleton.hh:                  // Done: Some code was deleted here.
+src/ast/typable.cc:                     // Done: Some code was deleted here.
+src/ast/typable.hh:                     // Done: Some code was deleted here.
+src/ast/typable.hxx:                    // DONE: Some code was deleted here.
+src/ast/type-constructor.cc:            // Done: Some code was deleted here.
+src/ast/type-constructor.hh:            // Done: Some code was deleted here.
+src/ast/type-constructor.hxx:           // Done: Some code was deleted here.
+src/astclone/cloner.cc:                 // DONE: Some code was deleted here.
+src/astclone/cloner.cc:                 // DONE: Some code was deleted here.
+src/astclone/cloner.cc:                 // DONE: Some code was deleted here.
+src/astclone/cloner.cc:                 // DONE: Some code was deleted here.
+src/astclone/cloner.cc:                 // DONE: Some code was deleted here.
+src/astclone/cloner.cc:                 // DONE: Some code was deleted here.
+src/astclone/cloner.cc:                 // DONE: Some code was deleted here.
+src/astclone/cloner.cc:                 // DONE: Some code was deleted here.
+src/astclone/cloner.cc:                 // DONE: Some code was deleted here.
+src/astclone/cloner.cc:                 // DONE: Some code was deleted here.
+src/astclone/cloner.cc:                 // DONE: Some code was deleted here.
+src/astclone/cloner.cc:                 // DONE: Some code was deleted here.
+src/astclone/cloner.cc:                 // DONE: Some code was deleted here.
+src/astclone/cloner.cc:                 // DONE: Some code was deleted here (Cloned node instantiation).
+src/astclone/cloner.cc:                 // DONE: Some code was deleted here.
+src/astclone/cloner.cc:                 // DONE: Some code was deleted here.
+src/astclone/cloner.cc:                 // DONE: Some code was deleted here.
+src/callgraph/call-graph-visitor.cc:    // FIXME: Some code was deleted here (Link the Caller with the CallExp's declaration). (optional) (bonus C)
+src/combine/binder.cc:                  // FIXME: Some code was deleted here. (bonus C)
+src/combine/binder.hh:                  // FIXME: Some code was deleted here (class Binder inheriting from object::Binder and overload::Binder). (bonus C)
+src/combine/libcombine.cc:              // FIXME: Some code was deleted here. (bonus C)
+src/combine/libcombine.cc:              // FIXME: Some code was deleted here. (bonus C)
+src/combine/libcombine.cc:              // FIXME: Some code was deleted here. (bonus C)
+src/combine/tasks.cc:                   // FIXME: Some code was deleted here (Call appropriate renaming tasks). (bonus C)
+src/combine/type-checker.cc:            // FIXME: Some code was deleted here. (bonus C)
+src/combine/type-checker.hh:            // FIXME: Some code was deleted here (class TypeChecker inheriting from overload::TypeChecker and object::TypeChecker). (bonus C)
+src/desugar/bounds-checking-visitor.cc: // FIXME: Some code was deleted here. (bonus O)
+src/desugar/bounds-checking-visitor.hh: // FIXME: Some code was deleted here. (bonus O)
+src/desugar/desugar-visitor.cc:         // FIXME: Some code was deleted here. (bonus O)
+src/desugar/desugar-visitor.cc:         // FIXME: Some code was deleted here. (bonus O)
+src/desugar/libdesugar.cc:              // FIXME: Some code was deleted here. (bonus O)
+src/inlining/inliner.cc:                // FIXME: Some code was deleted here. (bonus O)
+src/inlining/inliner.hh:                // FIXME: Some code was deleted here. (bonus O)
+src/inlining/pruner.cc:                 // FIXME: Some code was deleted here. (bonus O)
+src/inlining/pruner.hh:                 // FIXME: Some code was deleted here. (bonus O)
+src/overload/binder.cc:                 // FIXME: Some code was deleted here. (bonus O)
+src/overload/binder.cc:                 // FIXME: Some code was deleted here. (bonus O)
+src/overload/type-checker.cc:           // FIXME: Some code was deleted here. (bonus O)
+src/overload/type-checker.hh:           // FIXME: Some code was deleted here. (bonus O)
+src/type/array.cc:                      // DONE: Some code was deleted here.
+src/type/array.hh:                      // DONE: Some code was deleted here.
+src/type/array.hxx:                     // DONE: Some code was deleted here.
+src/type/attribute.hxx:                 // Done: Some code was deleted here.
+src/type/builtin-types.cc:              // Done: Some code was deleted here (Int, String, Void).
+src/type/builtin-types.hh:              // Done: Some code was deleted here (Other types : Int, String, Void).
+src/type/class.cc:                      // FIXME: Some code was deleted here. (option???)
+src/type/class.cc:                      // FIXME: Some code was deleted here. (option???)
+src/type/class.cc:                      // FIXME: Some code was deleted here (Find common super class). (option???)
+src/type/class.cc:                      // FIXME: Some code was deleted here (Super class soundness test). (option???)
+src/type/class.cc:                      // FIXME: Some code was deleted here (Special implementation of "compatible_with" for Class). (option???)
+src/type/class.cc:                      // FIXME: Some code was deleted here. (option???)
+src/type/class.hh:                      // FIXME: Some code was deleted here (Inherited methods). (option???)
+src/type/default-visitor.hxx:           // DONE: Some code was deleted here.
+src/type/default-visitor.hxx:           // DONE: Some code was deleted here.
+src/type/default-visitor.hxx:           // DONE: Some code was deleted here.
+src/type/default-visitor.hxx:           // DONE: Some code was deleted here.
+src/type/default-visitor.hxx:           // DONE: Some code was deleted here.
+src/type/function.cc:                   // DONE: Some code was deleted here.
+src/type/function.hh:                   // DONE: Some code was deleted here (Special implementation of "compatible_with" for Function).
+src/type/method.cc:                     // FIXME: Some code was deleted here. (Optional)
+src/type/method.hh:                     // FIXME: Some code was deleted here (Special implementation of "compatible_with" for type::Method). (Optional)
+src/type/method.hxx:                    // Done: Some code was deleted here. (Optional)
+src/type/named.cc:                      // DONE: Some code was deleted here (Inherited functions).
+src/type/named.cc:                      // DONE: Some code was deleted here (Sound).
+src/type/named.cc:                      // DONE: Some code was deleted here (Special implementation of "compatible_with" for Named).
+src/type/named.hxx:                     // DONE: Some code was deleted here.
+src/type/nil.cc:                        // DONE: Some code was deleted here.
+src/type/pretty-printer.cc:             // DONE: Some code was deleted here.
+src/type/pretty-printer.cc:             // DONE: Some code was deleted here.
+src/type/pretty-printer.cc:             // DONE: Some code was deleted here.
+src/type/pretty-printer.cc:             // DONE: Some code was deleted here.
+src/type/pretty-printer.cc:             // DONE: Some code was deleted here.
+src/type/pretty-printer.cc:             // DONE: Some code was deleted here.
+src/type/pretty-printer.cc:             // DONE: Some code was deleted here.
+src/type/record.cc:                     // DONE: Some code was deleted here (Field manipulators).
+src/type/record.cc:                     // DONE: Some code was deleted here (Special implementation of "compatible_with" for Record).
+src/type/record.hh:                     // DONE: Some code was deleted here (Inherited method).
+src/type/type-checker.cc:               // DONE: Some code was deleted here.
+src/type/type-checker.cc:               // DONE: Some code was deleted here.
+src/type/type-checker.cc:               // DONE: Some code was deleted here.
+src/type/type-checker.cc:               // DONE: Some code was deleted here (Check types).
+src/type/type-checker.cc:               // DONE: Some code was deleted here.
+src/type/type-checker.cc:               // DONE: Some code was deleted here.
+src/type/type-checker.cc:               // DONE: Some code was deleted here.
+src/type/type-checker.cc:               // DONE: Some code was deleted here.
+src/type/type-checker.cc:               // DONE: Some code was deleted here.
+src/type/type-checker.cc:               // DONE: Some code was deleted here.
+src/type/type-checker.cc:               // DONE: Some code was deleted here.
+src/type/type-checker.cc:               // DONE: Some code was deleted here.
+src/type/type-checker.cc:               // DONE: Some code was deleted here.
+src/type/type-checker.cc:               // DONE: Some code was deleted here.
+src/type/type-checker.cc:               // DONE: Some code was deleted here.
+src/type/type-checker.cc:               // DONE: Some code was deleted here.
+src/type/type-checker.cc:               // DONE: Some code was deleted here.
+src/type/type-checker.cc:               // DONE: Some code was deleted here.
+src/type/type-checker.cc:               // DONE: Some code was deleted here (Recognize user defined types, and built-in types).
+src/type/type-checker.cc:               // DONE: Some code was deleted here.
+src/type/type-checker.cc:               // DONE: Some code was deleted here.
+src/type/type-checker.hh:               // DONE: Some code was deleted here (Other Var nodes).
+src/type/type-checker.hh:               // DONE: Some code was deleted here (Other Exp nodes).
+src/type/type-checker.hxx:              // DONE: Some code was deleted here.
+src/type/type-checker.hxx:              // DONE: Some code was deleted here.
+src/type/type-checker.hxx:              // DONE: Some code was deleted here (Basically e.type_set(type)).
+src/type/type-checker.hxx:              // DONE: Some code was deleted here.
+src/type/type-checker.hxx:              // DONE: Some code was deleted here.
+src/type/type.hxx:                      // DONE: Some code was deleted here.
+src/type/type.hxx:                      // DONE: Some code was deleted here.
+
+src/bind/renamer.hxx:                   // FIXME: Some code was deleted here. (Optional)
+src/object/binder.cc:                   // FIXME: Some code was deleted here. (Optional)
+src/object/binder.cc:                   // FIXME: Some code was deleted here. (Optional)
+src/object/binder.cc:                   // FIXME: Some code was deleted here (Two passes: once on headers, then on bodies). (Optional)
+src/object/desugar-visitor.cc:          // FIXME: Some code was deleted here. (Optional)
+src/object/desugar-visitor.cc:          // FIXME: Some code was deleted here (Check int, then string, then class name). (Optional)
+src/object/desugar-visitor.cc:          // FIXME: Some code was deleted here (Initialize def). (Optional)
+src/object/desugar-visitor.cc:          // FIXME: Some code was deleted here. (Optional)
+src/object/desugar-visitor.cc:          // FIXME: Some code was deleted here. (Optional)
+src/object/desugar-visitor.cc:          // FIXME: Some code was deleted here (Initialize attr). (Optional)
+src/object/desugar-visitor.cc:          // FIXME: Some code was deleted here. (Optional)
+src/object/desugar-visitor.cc:          // FIXME: Some code was deleted here (Initiliaze def). (Optional)
+src/object/desugar-visitor.cc:          // FIXME: Some code was deleted here (Initialize def). (Optional)
+src/object/desugar-visitor.cc:          // FIXME: Some code was deleted here (Initialize def). (Optional)
+src/object/desugar-visitor.cc:          // FIXME: Some code was deleted here (Populate the record with attributes (names and types)). (Optional)
+src/object/desugar-visitor.cc:          // FIXME: Some code was deleted here (Get the ty's class type). (Optional)
+src/object/desugar-visitor.cc:          // FIXME: Some code was deleted here. (Optional)
+src/object/desugar-visitor.cc:          // FIXME: Some code was deleted here. (Optional)
+src/object/desugar-visitor.cc:          // FIXME: Some code was deleted here. (Optional)
+src/object/desugar-visitor.cc:          // FIXME: Some code was deleted here. (Optional)
+src/object/desugar-visitor.cc:          // FIXME: Some code was deleted here (Recurse). (Optional)
+src/object/desugar-visitor.cc:          // FIXME: Some code was deleted here (Recurse). (Optional)
+src/object/desugar-visitor.cc:          // FIXME: Some code was deleted here. (Optional)
+src/object/desugar-visitor.cc:          // FIXME: Some code was deleted here. (Optional)
+src/object/desugar-visitor.cc:          // FIXME: Some code was deleted here. (Optional)
+src/object/desugar-visitor.cc:          // FIXME: Some code was deleted here. (Optional)
+src/object/desugar-visitor.cc:          // FIXME: Some code was deleted here. (Optional)
+src/object/desugar-visitor.cc:          // FIXME: Some code was deleted here (Grab name). (Optional)
+src/object/desugar-visitor.cc:          // FIXME: Some code was deleted here (Actual arguments). (Optional)
+src/object/desugar-visitor.cc:          // FIXME: Some code was deleted here. (Optional)
+src/object/desugar-visitor.cc:          // FIXME: Some code was deleted here (Instantiate into result). (Optional)
+src/object/desugar-visitor.cc:          // FIXME: Some code was deleted here. (Optional)
+src/object/desugar-visitor.cc:          // FIXME: Some code was deleted here (Grab name). (Optional)
+src/object/desugar-visitor.cc:          // FIXME: Some code was deleted here. (Optional)
+src/object/desugar-visitor.cc:          // FIXME: Some code was deleted here (Recurse). (Optional)
+src/object/desugar-visitor.cc:          // FIXME: Some code was deleted here. (Optional)
+src/object/desugar-visitor.cc:          // FIXME: Some code was deleted here (Initialize method_type). (Optional)
+src/object/desugar-visitor.cc:          // FIXME: Some code was deleted here (Fetch actual arguments). (Optional)
+src/object/desugar-visitor.cc:          // FIXME: Some code was deleted here (Initialize args). (Optional)
+src/object/desugar-visitor.cc:          // FIXME: Some code was deleted here (Recurse). (Optional)
+src/object/desugar-visitor.cc:          // FIXME: Some code was deleted here (Adapt type). (Optional)
+src/object/desugar-visitor.cc:          // FIXME: Some code was deleted here (Instanciate into result). (Optional)
+src/object/desugar-visitor.cc:          // FIXME: Some code was deleted here (Setup is_main). (Optional)
+src/object/libobject.cc:                // FIXME: Some code was deleted here. (Optional)
+src/object/libobject.cc:                // FIXME: Some code was deleted here. (Optional)
+src/object/libobject.hh:                // FIXME: Some code was deleted here. (Optional)
+src/object/renamer.cc:                  // FIXME: Some code was deleted here (Just recurse on children nodes). (Optional)
+src/object/renamer.cc:                  // FIXME: Some code was deleted here. (Optional)
+src/object/renamer.cc:                  // FIXME: Some code was deleted here. (Optional)
+src/object/renamer.cc:                  // FIXME: Some code was deleted here. (Optional)
+src/object/renamer.cc:                  // FIXME: Some code was deleted here. (Optional)
+src/object/renamer.cc:                  // FIXME: Some code was deleted here. (Optional)
+src/object/tasks.cc:                    // FIXME: Some code was deleted here. (Optional)
+src/object/tasks.hh:                    // FIXME: Some code was deleted here. (Optional)
+src/object/type-checker.cc:             // FIXME: Some code was deleted here. (Optional)
+src/object/type-checker.cc:             // FIXME: Some code was deleted here. (Optional)
+src/object/type-checker.cc:             // FIXME: Some code was deleted here (Grab type). (Optional)
+src/object/type-checker.cc:             // FIXME: Some code was deleted here. (Optional)
+src/object/type-checker.cc:             // FIXME: Some code was deleted here. (Optional)
+src/object/type-checker.cc:             // FIXME: Some code was deleted here. (Optional)
+src/object/type-checker.cc:             // FIXME: Some code was deleted here. (Optional)
+src/object/type-checker.cc:             // FIXME: Some code was deleted here. (Optional)
+src/object/type-checker.cc:             // FIXME: Some code was deleted here. (Optional)
+src/object/type-checker.cc:             // FIXME: Some code was deleted here. (Optional)
+src/object/type-checker.cc:             // FIXME: Some code was deleted here. (Optional)
+src/object/type-checker.cc:             // FIXME: Some code was deleted here (Create class). (Optional)
+src/object/type-checker.cc:             // FIXME: Some code was deleted here (Set the type of the super class). (Optional)
+src/object/type-checker.cc:             // FIXME: Some code was deleted here (Recursively update the list of subclasses of the super classes). (Optional)
+src/object/type-checker.cc:             // FIXME: Some code was deleted here. (Optional)

@@ -1,0 +1,2 @@
+bad-member-bindings.tig:5.3-20: unknown method: missing_method
+bad-member-bindings.tig:6.3-21: unknown attribute: missing_attribute

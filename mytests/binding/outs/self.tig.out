@@ -1,0 +1,25 @@
+/* == Abstract Syntax Tree. == */
+
+function _main /* 0x55e997bf01a0 */() =
+  (
+    let
+      type self /* 0x55e997bf0810 */ =
+      class extends Object /* 0 */
+      {
+        var self : self /* 0x55e997bf0810 */ := nil
+        method self() : self /* 0x55e997bf0810 */ =
+          self /* 0 */.self
+      }
+      var self /* 0x55e997bf18d0 */ : self /* 0x55e997bf0810 */ := new self /* 0x55e997bf0810 */
+      type foo /* 0x55e997bf37d0 */ =
+      class extends Object /* 0 */
+      {
+        var self := self /* 0x55e997bf18d0 */
+        method self(self /* 0x55e997bf0e80 */ : self /* 0x55e997bf0810 */) : self /* 0x55e997bf0810 */ =
+          self /* 0x55e997bf0e80 */.self
+      }
+    in
+      ()
+    end;
+    ()
+  )

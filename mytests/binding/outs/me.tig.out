@@ -1,0 +1,11 @@
+/* == Abstract Syntax Tree. == */
+
+function _main /* 0x55737473c2c0 */() =
+  (
+    let
+      var me /* 0x55737473edd0 */ := 0
+    in
+      me /* 0x55737473edd0 */
+    end;
+    ()
+  )

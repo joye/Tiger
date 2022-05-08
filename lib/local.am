@@ -1,0 +1,12 @@
+include %D%/misc/local.am
+
+
+## ---------- ##
+## Range-v3.  ##
+## ---------- ##
+
+dist_noinst_HEADERS =
+include %D%/concepts/local.am
+include %D%/meta/local.am
+include %D%/range/v3/local.am
+include %D%/std/local.am

@@ -1,0 +1,6 @@
+src_libtc_la_SOURCES +=                                                        \
+  %D%/libcombine.hh %D%/libcombine.cc                                          \
+  %D%/binder.hh %D%/binder.cc                                  \
+  %D%/type-checker.hh %D%/type-checker.cc
+
+TASKS += %D%/tasks.hh %D%/tasks.cc

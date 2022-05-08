@@ -1,0 +1,27 @@
+/* == Abstract Syntax Tree. == */
+
+primitive print(string_0 : string)
+primitive print_err(string_1 : string)
+primitive print_int(int_2 : int)
+primitive flush()
+primitive getchar() : string
+primitive ord(string_3 : string) : int
+primitive chr(code_4 : int) : string
+primitive size(string_5 : string) : int
+primitive streq(s1_6 : string, s2_7 : string) : int
+primitive strcmp(s1_8 : string, s2_9 : string) : int
+primitive substring(string_10 : string, start_11 : int, length_12 : int) : string
+primitive concat(fst_13 : string, snd_14 : string) : string
+primitive not(boolean_15 : int) : int
+primitive exit(status_16 : int)function _main() =
+  (
+    let
+      type a_18 = { a : int }
+      function a_19(a_20 : a_18) : a_18 =
+        a_18 { a = (a_20 + a_20) }
+      var a_17 : a_18 := a_19(1, 2)
+    in
+      a_17.a
+    end;
+    ()
+  )

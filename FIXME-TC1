@@ -1,0 +1,27 @@
+AUTHORS.txt:Done: Who are you?
+
+-   lib/misc/symbol.hxx:    // DONE: Some code was deleted here.
+-   lib/misc/symbol.hxx:    // DONE: Some code was deleted here.
+-   lib/misc/symbol.hxx:    // DONE: Some code was deleted here.
+-   lib/misc/symbol.hxx:    // DONE: Some code was deleted here.
+-   lib/misc/test-symbol.cc:  // DONE: Some code was deleted here (Testing set size).
+-   lib/misc/unique.hxx:  // DONE: Some code was deleted here (Initializations).
+-   lib/misc/unique.hxx:    // DONE: Some code was deleted here (Classical Singleton pattern, a la Scott Meyers').
+-   lib/misc/unique.hxx:    // DONE: Some code was deleted here.
+-   lib/misc/unique.hxx:    // DONE: Some code was deleted here.
+-   lib/misc/unique.hxx:    // DONE: Some code was deleted here.
+-   lib/misc/variant.hxx:    // DONE: Some code was deleted here.
+-   src/parse/parsetiger.yy:  // FIXME: Some code was deleted here (Other directives).
+-   src/parse/parsetiger.yy:  // FIXME: Some code was deleted here (Priorities/associativities).
+-   src/parse/parsetiger.yy:  // FIXME: Some code was deleted here (Other declarations).
+-   src/parse/parsetiger.yy:  // FIXME: Some code was deleted here (More rules).
+-   src/parse/parsetiger.yy:  // FIXME: Some code was deleted here (More rules).
+-   src/parse/parsetiger.yy:  // FIXME: Some code was deleted here.
+-   src/parse/scantiger.ll:  // DONE: Some code was deleted here.
+-   src/parse/scantiger.ll:  /* DONE: Some code was deleted here. */
+-   src/parse/scantiger.ll:  // DONE: Some code was deleted here (Local variables).
+-   src/parse/scantiger.ll:  // DONE: Some code was deleted here (Decode, and check the value).
+-   src/parse/scantiger.ll:  /* DONE: Some code was deleted here. */
+-   src/parse/tiger-parser.cc:    // DONE: Some code was deleted here (Enable scan traces and link the scanner to the input).
+-   src/parse/tiger-parser.cc:    // DONE: Some code was deleted here (Initialize the parser and enable parse traces).
+-   src/parse/tiger-parser.cc:    // DONE: Some code was deleted here (Run the parser and close the scanner).

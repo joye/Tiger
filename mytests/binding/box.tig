@@ -1,0 +1,7 @@
+let
+  type     box = { value : int }
+  type     dup = { value : int, value : string }
+  var      box := box { value = 51 }
+in
+  box.head
+end

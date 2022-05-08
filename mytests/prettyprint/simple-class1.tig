@@ -1,0 +1,10 @@
+let
+  class B
+  {
+    var a := 42
+    method m() : int = self.a
+  }
+  var b := new B
+in
+  b.a := 51
+end

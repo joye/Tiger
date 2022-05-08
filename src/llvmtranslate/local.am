@@ -1,0 +1,61 @@
+# Compile the LLVM Tiger runtime
+%D%/runtime.ll: %D%/tiger-runtime.c
+	$(AM_V_CC)$(CLANG) -c -m32 -std=c99 -emit-llvm -S -o $@ $^
+
+EXTRA_DIST += %D%/tiger-runtime.c
+
+CLEANFILES += %D%/runtime.cc %D%/runtime.ll
+%D%/runtime.cc: %D%/runtime.ll
+	$(AM_V_GEN)$(AWK)						\
+	   'BEGIN {							\
+	     print("#include <string>");				\
+	     print("#include <llvmtranslate/libllvmtranslate.hh>");	\
+	     print("");							\
+	     print("namespace llvmtranslate");				\
+	     print("{");						\
+	     print("const char* runtime_string()");			\
+	     print("{");						\
+	     print("  return \"\\");					\
+	   }								\
+	   /^#(<<|>>)/ {						\
+	     next;							\
+	   }								\
+	   {								\
+	     gsub(/[\\"]/, "\\\\&", $$0);				\
+	     print($$0 "\\n\\");}					\
+	   END {							\
+	     print("\";");						\
+	     print("}");						\
+	     print("} // namespace llvmtranslate");			\
+	   }'								\
+	  $< >$@.tmp
+	$(AM_V_at)mv $@.tmp $@
+
+## llvmtranslate module.
+src_libtc_la_SOURCES +=					\
+  %D%/escapes-collector.cc %D%/escapes-collector.hh		\
+  %D%/translator.hh %D%/translator.hxx %D%/translator.cc	\
+  %D%/libllvmtranslate.cc %D%/libllvmtranslate.hh		\
+  %D%/llvm-type-visitor.cc %D%/llvm-type-visitor.hh		\
+  %D%/fwd.hh
+
+nodist_src_libtc_la_SOURCES += %D%/runtime.cc
+
+## FIXME: Add SWIG support for this module
+## EXTRA_DIST += %D%/tiger_llvmtranslate.i
+
+## LLVM flags are found using `llvm-config`.
+
+if STATIC_LLVM
+EXTRA_LLVM_CONFIG_FLAGS = --link-static
+else
+EXTRA_LLVM_CONFIG_FLAGS =
+endif
+
+AM_CXXFLAGS += `$(LLVM_CONFIG) $(EXTRA_LLVM_CONFIG_FLAGS) --cppflags`
+src_libtc_la_LDFLAGS +=			\
+  `$(LLVM_CONFIG) $(EXTRA_LLVM_CONFIG_FLAGS) --ldflags`			\
+  `$(LLVM_CONFIG) $(EXTRA_LLVM_CONFIG_FLAGS) --libs core linker asmparser`	\
+  `$(LLVM_CONFIG) $(EXTRA_LLVM_CONFIG_FLAGS) --system-libs`
+
+TASKS += %D%/tasks.hh %D%/tasks.cc
